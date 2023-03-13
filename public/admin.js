@@ -33,7 +33,7 @@ async function main() {
         }
         fetch('http://localhost:3001/updateBook',{
             method: 'PATCH',
-            header: {
+            headers: {
                 'content-type': 'application/json'
 
             },
